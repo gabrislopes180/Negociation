@@ -15,6 +15,21 @@
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
+.doors {
+  margin-top: 320px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+.doors .closed {
+  position: absolute;
+  opacity: 1; /* Começa visível */
+  cursor: pointer;
+}
+
+.doors .closed:hover {
+  opacity: 0;
+}
 
 @media (prefers-color-scheme: dark) {
   .page {
@@ -68,10 +83,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -106,6 +118,9 @@ a.secondary {
 
 .footer img {
   flex-shrink: 0;
+}
+.closedDoor img {
+  margin-top: 200px;
 }
 
 /* Enable hover only on non-touch devices */

@@ -1,0 +1,50 @@
+.coracoes {
+  position: absolute;
+  bottom: 12%;
+  left: 45%;
+  z-index: 1;
+}
+.name {
+  position: absolute;
+  color: black;
+  bottom: 42%;
+  left: 50%;
+}
+.avatar {
+  position: absolute;
+  left: 9%;
+  bottom: 16%;
+  z-index: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.cracha {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  transition: transform 0.5s;
+  opacity: 0.8;
+  transform: rotateZ(-2.87deg);
+}
+.cracha:hover {
+  opacity: 1;
+}
+
+.girar {
+  animation: girar 1s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1370) {
+  .cracha {
+    top: 60%;
+  }
+}

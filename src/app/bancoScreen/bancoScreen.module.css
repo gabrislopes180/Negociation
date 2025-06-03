@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
+
+.background {
+  background-image: url("/images/negociation/Sprites/Banco Background.png");
+  background-position: center -24px;
+  background-repeat: no-repeat; /* Não repete */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  font-family: "Jersey 10", sans-serif;
+}
+
+.loadingText {
+  font-size: 32px;
+  color: rgb(23, 117, 23);
+  margin-top: 40%;
+  margin-left: 45%;
+}

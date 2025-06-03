@@ -1,0 +1,14 @@
+.background {
+  background-image: url("/images/negociation/sprites/Cracha Background.png");
+  background-position: center -60px;
+  background-repeat: no-repeat; /* Não repete */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.notepad {
+  position: absolute;
+  bottom: 250px;
+  right: 62%;
+}

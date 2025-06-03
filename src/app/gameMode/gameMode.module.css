@@ -1,0 +1,8 @@
+.background {
+  background-image: url("/images/negociation/sprites/Game Mode.png");
+  background-position: center 0px;
+  background-repeat: no-repeat; /* Não repete */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+.background {
+  background-image: url("/images/negociation/sprites/telaInicial.png");
+  background-position: -10px -1160px;
+  background-repeat: no-repeat; /* Não repete */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  transition: 6s;
+}
+.advice {
+  position: absolute;
+  top: 5%;
+  right: 35%;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+  animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

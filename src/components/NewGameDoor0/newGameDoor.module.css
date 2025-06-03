@@ -1,0 +1,29 @@
+.doors {
+  position: relative;
+}
+.doors .closed {
+  position: absolute;
+  right: 30px;
+  top: 103px;
+  opacity: 1; /* Começa visível */
+  cursor: pointer;
+  z-index: 1;
+}
+
+.doors .closed:hover {
+  opacity: 0;
+}
+
+.doors .opened {
+  position: absolute;
+  right: 30px;
+  top: 107px;
+  z-index: 0;
+}
+
+@media (min-width: 1366px) {
+  .doors {
+    right: 0.3vw;
+    top: 1vh;
+  }
+}

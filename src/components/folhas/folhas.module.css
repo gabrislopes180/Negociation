@@ -1,0 +1,57 @@
+.folhas {
+  z-index: 3;
+  position: absolute;
+}
+
+.Folha1 {
+  position: relative;
+  top: 20px;
+  left: 15px;
+  transform: rotateZ(3deg);
+}
+
+.PostIt1 {
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.PostIt1:hover {
+  transform: translateY(-15px);
+}
+.PostIt2 {
+  position: absolute;
+  top: 95%;
+  right: 3%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.PostIt2:hover {
+  transform: translateY(-15px);
+}
+
+.textoFolha1 {
+  position: absolute;
+  color: black;
+  right: 30%;
+  top: 21.4%;
+  font-size: 25px;
+  transform: rotateZ(3deg);
+}
+.textoPostIt1 {
+  position: absolute;
+  top: 106%;
+  left: 10%;
+  font-size: 20px;
+  transform: rotateZ(-6deg);
+  color: purple;
+}
+.textoPostIt2 {
+  position: absolute;
+  top: 100%;
+  right: 16%;
+  font-size: 20px;
+  transform: rotateZ(4deg);
+  color: purple;
+}

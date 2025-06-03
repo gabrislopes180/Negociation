@@ -1,0 +1,18 @@
+.background {
+  background-image: url("/images/negociation/Sprites/Game Background.png");
+  background-position: center -15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (min-width: 1366px) {
+  .gameTable {
+    position: absolute;
+    top: 16%;
+  }
+  .background {
+    background-position: center -0px;
+  }
+}

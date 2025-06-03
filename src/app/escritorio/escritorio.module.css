@@ -1,0 +1,65 @@
+.background {
+  background-image: url("/images/negociation/sprites/Escritório.png");
+  background-position: center -18px;
+  background-repeat: no-repeat; /* Não repete */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  position: absolute;
+  top: 57vh;
+  left: 52.5vw;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  animation: float 1s ease-in-out infinite;
+  transition: 0.5s;
+}
+.backButton {
+  position: absolute;
+  top: 190px;
+  left: 510px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  z-index: 3;
+}
+
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  z-index: 3;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0px 5px 15px rgb(255, 255, 255);
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+
+@media (min-width: 1366px) {
+  .button {
+    top: 47.3vh;
+    left: 53.5vw;
+  }
+
+  .backButton {
+    top: 185px;
+    left: 540px;
+  }
+
+  .modal {
+    top: 8%;
+    left: 36%;
+  }
+}
