@@ -6,8 +6,9 @@ import Image from "next/image";
 
 export default function TelaGame() {
   return (
-    <div className={styles.telaGame}>
+    <div className={styles.gameContainer}>
       <Image
+        className={styles.telaGame}
         src="/images/negociation/Sprites/Tela Game.png"
         width={580}
         height={420}
@@ -31,7 +32,7 @@ export default function TelaGame() {
 
       <button>
         <Image
-          className={styles.negar}
+          className={styles.negociar}
           width={150}
           height={45}
           src="/images/negociation/Sprites/Negociar.png"

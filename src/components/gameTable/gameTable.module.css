@@ -1,0 +1,11 @@
+.gameTable {
+  position: absolute;
+  right: 2%;
+}
+
+@media (min-width: 1366px) {
+  .gameTable {
+    top: 20vh;
+    left: 0vw;
+  }
+}

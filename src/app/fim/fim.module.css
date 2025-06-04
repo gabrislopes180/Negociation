@@ -1,0 +1,8 @@
+.background {
+  background-image: url("/images/negociation/Sprites/Fim.png");
+  background-position: center -25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}

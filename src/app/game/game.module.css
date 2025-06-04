@@ -8,11 +8,10 @@
 }
 
 @media (min-width: 1366px) {
-  .gameTable {
-    position: absolute;
-    top: 16%;
-  }
   .background {
     background-position: center -0px;
+  }
+  .gameTable {
+    top: 20vh;
   }
 }

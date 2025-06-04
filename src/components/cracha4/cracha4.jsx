@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./cracha4.module.css";
 
-export default function Cracha4({ avatarSrc, nome, coracoesSrc }) {
+export default function Cracha4({ avatarSrc, nome, coracoesSrc, top, right }) {
   const [coracoes, setCoracoes] = useState(3);
   const [espacoCount, setEspacoCount] = useState(0);
 
