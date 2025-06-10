@@ -28,9 +28,20 @@ export default function Escritorio() {
       </Link>
       <QuadroNoticias />
 
-      <TabelaLigas />
-      <Ranking />
-      <Folhas folha1="texto aqui" folha2="texto" folha3="texto" />
+      <TabelaLigas
+        nome="Zildo"
+        pontos="1000"
+        ranking="735"
+        clientes="91"
+        data="05/06"
+        level="Conquistador"
+      />
+      <Ranking pontos="1730" clientes="190" nome="Zildo" />
+      <Folhas
+        folha1=" texto texto texto"
+        folha2="Objetivo do jogo"
+        folha3="Lista de créditos"
+      />
 
       <button className={styles.button} onClick={modal}>
         <Image

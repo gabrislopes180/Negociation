@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .coracoes {
   position: absolute;
   bottom: 12%;
@@ -9,6 +10,9 @@
   color: black;
   bottom: 42%;
   left: 50%;
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
+  font-size: 25px;
 }
 .avatar {
   position: absolute;

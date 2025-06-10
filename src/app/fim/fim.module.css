@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .background {
   background-image: url("/images/negociation/Sprites/Fim.png");
   background-position: center -25px;
@@ -5,4 +6,6 @@
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
 }

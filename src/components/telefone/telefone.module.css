@@ -6,7 +6,13 @@
 .telefoneContainer span {
   position: absolute;
   top: 48%;
-  right: 27%;
+  right: 10%;
+  width: 100%;
+  max-width: 310px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  font-size: 15px;
   color: black;
 }
 
@@ -15,6 +21,6 @@
     top: 52vh;
   }
   .telefoneContainer span {
-    top: 60vh;
+    top: 58vh;
   }
 }

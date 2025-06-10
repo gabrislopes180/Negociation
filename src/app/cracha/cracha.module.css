@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .background {
   background-image: url("/images/negociation/sprites/Cracha Background.png");
   background-position: center -60px;
@@ -11,4 +12,16 @@
   position: absolute;
   bottom: 250px;
   right: 62%;
+}
+
+.notepad span {
+  font-size: 45px;
+  color: #5f32da;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: rotateZ(-12deg);
+  letter-spacing: 1.2px;
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
 }

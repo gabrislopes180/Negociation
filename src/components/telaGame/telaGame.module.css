@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 .telaGame {
   position: absolute;
   top: 0;
   right: 33%;
-  font-family: "Jersey 10", sans-serif;
+  font-family: "VT323", monospace;
 }
 
 .dados {
   position: absolute;
   right: 39%;
   top: 20%;
-  opacity: 0.7;
+  font-family: "VT323", monospace;
 }
 
 .aceitar {
@@ -21,7 +21,6 @@
   bottom: 52%;
   right: 58%;
   cursor: pointer;
-  opacity: 0.7;
 }
 .negociar {
   background: transparent;
@@ -30,24 +29,46 @@
   bottom: 52%;
   right: 41.5%;
   cursor: pointer;
-  opacity: 0.7;
+}
+
+.dadosCliente {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  font-size: 20px;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+  color: rgb(47, 207, 47);
+}
+.dadosCarteira {
+  position: absolute;
+  bottom: 25%;
+  left: 55%;
+  font-size: 22px;
+  font-family: "VT323", monospace;
+  color: rgb(47, 207, 47);
 }
 
 .span1 {
   position: absolute;
-  top: 13%;
-  right: 60%;
-  font-size: 30;
-  opacity: 0.8;
-  color: rgb(47, 173, 47);
+  top: 15.5%;
+  right: 58%;
+  font-size: 24px;
+  color: rgb(47, 207, 47);
+  font-family: "VT323", monospace;
 }
 .span2 {
   position: absolute;
-  top: 13%;
-  right: 45%;
-  font-size: 30;
-  opacity: 0.8;
-  color: rgb(47, 173, 47);
+  top: 15.5%;
+  right: 35%;
+  font-size: 24px;
+  width: 100%;
+  max-width: 260px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  color: rgb(47, 207, 47);
+  font-family: "VT323", monospace;
 }
 
 @media (min-width: 1366px) {
@@ -64,9 +85,9 @@
     top: 49.8vh;
   }
   .span1 {
-    top: 27vh;
+    top: 28vh;
   }
   .span2 {
-    top: 27vh;
+    top: 28vh;
   }
 }

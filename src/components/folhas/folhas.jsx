@@ -17,23 +17,27 @@ export default function Folhas({ folha1, folha2, folha3 }) {
 
       <span className={styles.textoFolha1}>{folha1}</span>
 
-      <Image
-        src="/images/negociation/Sprites/PostIt1.png"
-        className={styles.PostIt1}
-        width={120}
-        height={120}
-        alt="folha"
-      />
+      <div className={styles.PostIt1}>
+        <Image
+          src="/images/negociation/Sprites/PostIt1.png"
+          width={120}
+          height={120}
+          alt="folha"
+        />
 
-      <Image
-        src="/images/negociation/Sprites/PostIt2.png"
-        className={styles.PostIt2}
-        width={120}
-        height={120}
-        alt="folha"
-      />
-      <span className={styles.textoPostIt1}>{folha2}</span>
-      <span className={styles.textoPostIt2}>{folha3}</span>
+        <span className={styles.textoPostIt1}>{folha2}</span>
+      </div>
+
+      <div className={styles.PostIt2}>
+        <Image
+          src="/images/negociation/Sprites/PostIt2.png"
+          width={120}
+          height={120}
+          alt="folha"
+        />
+
+        <span className={styles.textoPostIt2}>{folha3}</span>
+      </div>
     </div>
   );
 }

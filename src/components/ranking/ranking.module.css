@@ -3,3 +3,26 @@
   top: 3%;
   left: 28%;
 }
+.Ranking p {
+  color: black;
+  font-weight: bolder;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
+.colocacao {
+  position: absolute;
+  top: 22.2%;
+  left: 30%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 11.5px;
+  word-spacing: 2.5px;
+}

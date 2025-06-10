@@ -3,3 +3,13 @@
   top: -1.6%;
   right: 29%;
 }
+.infos {
+  position: absolute;
+  top: 5.8%;
+  left: 28%;
+  gap: 0.1rem;
+  text-align: center;
+  font-size: 13.9px;
+  font-weight: bolder;
+  color: black;
+}

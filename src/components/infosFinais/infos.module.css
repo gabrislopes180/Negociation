@@ -1,0 +1,23 @@
+.infos {
+  color: #5f32da;
+  position: absolute;
+  left: 13.5%;
+  top: 30.5%;
+  gap: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.desempenho {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+@media (min-width: 1366px) {
+  .infos {
+    top: 27vh;
+  }
+}

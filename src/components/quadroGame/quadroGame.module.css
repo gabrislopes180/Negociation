@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .quadro {
   position: absolute;
   right: 0.4%;
@@ -21,7 +22,14 @@
 .quadroGame span {
   color: rgb(78, 47, 10);
   position: absolute;
-  right: 14%;
+  right: 12.4%;
   top: 10%;
-  transform: rotateZ(-2deg);
+  width: 100%;
+  max-width: 120px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  transform: rotateZ(-1deg);
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .coracoes {
+  display: flex;
   position: absolute;
   bottom: 12%;
   left: 45%;
@@ -10,9 +11,9 @@
   color: black;
   bottom: 42%;
   left: 50%;
+  font-size: 12px;
   font-family: "Coming Soon", cursive;
   font-weight: 600;
-  font-size: 25px;
 }
 .avatar {
   position: absolute;
@@ -24,11 +25,9 @@
 }
 .cracha {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  left: 12vw;
   transition: transform 0.5s;
-  opacity: 0.8;
-  transform: rotateZ(7.62deg);
+  transform: rotateZ(-5.33deg);
 }
 .cracha:hover {
   opacity: 1;
@@ -44,5 +43,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1370) {
+  .cracha {
+    bottom: 12vh;
   }
 }

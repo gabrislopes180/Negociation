@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+
 .folhas {
   z-index: 3;
   position: absolute;
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
 }
 
 .Folha1 {
@@ -34,24 +38,41 @@
 .textoFolha1 {
   position: absolute;
   color: black;
-  right: 30%;
-  top: 21.4%;
-  font-size: 25px;
+  right: 11%;
+  top: 22.5%;
+  width: 100%;
+  max-width: 200px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  font-size: 20px;
   transform: rotateZ(3deg);
 }
 .textoPostIt1 {
   position: absolute;
-  top: 106%;
-  left: 10%;
-  font-size: 20px;
+  top: 30%;
+  left: 22%;
+  width: 100%;
+  max-width: 60px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  transform: rotateZ(3deg);
+  font-size: 16px;
   transform: rotateZ(-6deg);
-  color: purple;
+  color: #5f32da;
 }
 .textoPostIt2 {
   position: absolute;
-  top: 100%;
-  right: 16%;
-  font-size: 20px;
+  top: 30%;
+  left: 22%;
+  width: 100%;
+  max-width: 60px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  transform: rotateZ(3deg);
+  font-size: 16px;
   transform: rotateZ(4deg);
-  color: purple;
+  color: #5f32da;
 }
